@@ -1,0 +1,39 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Architettura di Apache : In linea continua il flusso dei dati reale, tratteggiato il flusso dei dati astratto che forma la pipeline \cite {sito_apache}.}}{10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Pannello di XAMPP per Windows}}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces script php (config.php) per la connessione al database}}{16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces immagine raffigurante dei punti di interesse: \IeC {\`e} possibile vedere il \textbf {polygon} che raffigura l'orto botanico \textit {Parco UNIVPM} con al centro un \textbf {circle} che cliccato apre il tooltip e i due \textbf {markers} che raffigurano i beacon (piante) nel parco.}}{16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces la navbar impiegata al top della pagina}}{47}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tabella exists\_table generata dinamicamente dalla logica appena introdotta.}}{53}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Funzionamento grafico del men\IeC {\`u}}}{57}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Grafica della Login Form}}{58}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Grafica della Form per la ricerca}}{60}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Connessione stabilita con successo}}{72}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Click sul poligono : possibilit\IeC {\`a} di specificare attributi grafici come il colore, la linea di contorno e l'opacit\IeC {\`a}.}}{76}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Click sul poligono : informazioni utili.}}{76}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Click sul beacon : possibilit\IeC {\`a} di specificare attributi grafici come il colore, il simbolo e la dimensione.}}{77}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Click sul beacon : latitudine e longitudine.}}{77}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Propriet\IeC {\`a} : Assicurarsi che Write sia spuntato}}{79}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Aggiungendo l'eccezione \IeC {\`e} possibile navigare nel sito utilizzando a pieno le API}}{80}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confermando l'eccezione sar\IeC {\`a} possibile la navigazione}}{81}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Richiesta di Localizzazione da Desktop}}{81}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Impostazione che permette tramite spunta di abilitare l'opzione di localizzazione}}{84}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Impostazione che permette tramite spunta di selezionare la voce Mentre usi l'app}}{84}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Dimostrazione della corretta procedura, Safari ha ora ottenuto i permessi}}{84}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Impostazioni che permettono tramite spunta delle voci 'Microfono e Fotocamera', di abilitare tali servizi}}{85}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Impostazione che permette tramite spunta di ailitare le funzionalit\IeC {\`a} 'JavaScript'}}{86}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Richiesta di Localizzazione da parte dell'API, accettando si acconsente a condividere la proprio posizione affinch\IeC {\'e} l'applicazione web funzioni correttamente.}}{86}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Come si presenta l'homepage dell'applicazione Web con il front end full}}{87}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Come si presenta la sidebar di questo front end}}{88}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Ecco come si presenta la form che viene mostrata al click del beacon sulla mappa}}{89}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Ecco come si presenta la Material Box (Light Box) al click dell'immagine della finestra modale del beacon}}{90}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Come si presenta l'homepage dell'applicazione Web con il front end basic}}{91}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Come si presenta la sidebar di questo front end}}{92}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Come si presenta la form modale per scattare le foto.}}{93}
+\addvspace {10\p@ }

@@ -1,0 +1,52 @@
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+\newcommand{\nohyphens}{\hyphenpenalty=10000\exhyphenpenalty=10000\relax}
+
+%% Layout della pagina
+%\pagestyle{fancyplain}
+%\setlength{\headheight}{14.5pt}
+%\addtolength{\headwidth}{\marginparsep}
+%\addtolength{\headwidth}{\marginparwidth}
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection\  #1}}
+%\lhead[\fancyplain{}{\bfseries\thepage}]%
+%      {\fancyplain{}{\bfseries\rightmark}}
+%\rhead[\fancyplain{}{\bfseries\leftmark}]%
+%      {\fancyplain{}{\bfseries\thepage}}
+%\cfoot{}
+
+% Questa lunghezza rappresenta la lunghezza completa della pagine, compreso
+% lo spazio per le note a margine
+%\newlength{\fullpagelen}
+%\setlength{\fullpagelen}{\textwidth}
+%\addtolength{\fullpagelen}{\marginparsep}
+%\addtolength{\fullpagelen}{\marginparwidth}
+
+\makeatletter
+\renewenvironment{thebibliography}[1]
+  {%
+    \chapter*{\bibname}%
+    \addcontentsline{toc}{chapter}{\bibname}%
+    \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+    \list{\@biblabel{\@arabic\c@enumiv}}%
+    {%
+      \settowidth\labelwidth{\@biblabel{#1}}%
+      \leftmargin\labelwidth
+      \advance\leftmargin\labelsep
+      \@openbib@code
+      \usecounter{enumiv}%
+      \let\p@enumiv\@empty
+      \renewcommand\theenumiv{\@arabic\c@enumiv}%
+    }%
+    \sloppy
+    \clubpenalty4000
+    \@clubpenalty \clubpenalty
+    \widowpenalty4000%
+    \sfcode`\.\@m%
+  }%
+  {%
+    \def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+    \endlist%
+  }   % Finisce qui la ridefinizione di thebibliography
+
+\makeatother

@@ -1,0 +1,927 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.19)  12 DEC 2018 17:49
+entering extended mode
+**./Tesi.tex
+(Tesi.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/09/02 3.23 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/09/02 3.23 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-italian\italian.ldf
+Language: italian 2015/03/26 v1.3n Italian support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/09/02 3.23 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+\bbl@dirlevel=\count90
+)
+\it@lettering=\count91
+\it@doublequoteactive=\count92
+\it@ISOcompliance=\count93
+))
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count94
+)
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen104
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen105
+\subfiglabelskip=\skip46
+\c@subfigure=\count95
+\c@lofdepth=\count96
+\c@subtable=\count97
+\c@lotdepth=\count98
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks17
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\ntgclass\a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count111
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+) (definitions.tex)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box30
+\lst@token=\toks24
+\lst@length=\count113
+\lst@currlwidth=\dimen117
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen118
+\lst@width=\dimen119
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen120
+
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box31
+)
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+(Tesi.aux (frontespizio.aux) (capitolo1.aux) (capitolo2.aux) (capitolo3.aux)
+(capitolo4.aux) (capitolo5.aux) (conclusioni.aux))
+\openout1 = `Tesi.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Info: Redefining \it@ocap on input line 54.
+LaTeX Info: Redefining \it@ccap on input line 54.
+
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen121
+\scratchbox=\box32
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen122
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks26
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.jpeg,.png,.jpg,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+\c@lstlisting=\count126
+\openout2 = `frontespizio.aux'.
+
+
+(frontespizio.tex
+<images/logo.png, id=1, 549.05125pt x 560.0925pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 15.
+(pdftex.def)             Requested size: 142.26378pt x 145.12492pt.
+ [1
+
+
+{C:/Users/Bruce/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2
+
+
+
+] (Tesi.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3] [4])
+\tf@toc=\write3
+\openout3 = `Tesi.toc'.
+
+ [5]
+[6
+
+]
+\openout2 = `capitolo1.aux'.
+
+ (capitolo1.tex
+Capitolo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+ [7
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+
+ []
+
+) [8]
+\openout2 = `capitolo2.aux'.
+
+ (capitolo2.tex
+Capitolo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--25
+
+ []
+
+[9
+
+
+
+
+]
+<images/apache.png, id=43, 401.5pt x 291.0875pt>
+File: images/apache.png Graphic file (type png)
+<use images/apache.png>
+Package pdftex.def Info: images/apache.png  used on input line 37.
+(pdftex.def)             Requested size: 321.20042pt x 232.8703pt.
+ [10 <./images/apache.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 43--53
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+
+ []
+
+<images/xampp.png, id=52, 514.17094pt x 331.2375pt>
+File: images/xampp.png Graphic file (type png)
+<use images/xampp.png>
+Package pdftex.def Info: images/xampp.png  used on input line 92.
+(pdftex.def)             Requested size: 411.33731pt x 264.99034pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13 <./images/xampp.png>] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+<images/visual_studio_code.png, id=63, 834.11626pt x 301.8778pt>
+File: images/visual_studio_code.png Graphic file (type png)
+<use images/visual_studio_code.png>
+Package pdftex.def Info: images/visual_studio_code.png  used on input line 139.
+
+(pdftex.def)             Requested size: 369.88582pt x 133.86766pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+<images/leaflet.png, id=67, 294.34969pt x 264.99pt>
+File: images/leaflet.png Graphic file (type png)
+<use images/leaflet.png>
+Package pdftex.def Info: images/leaflet.png  used on input line 148.
+(pdftex.def)             Requested size: 227.62204pt x 204.92035pt.
+
+[16 <./images/visual_studio_code.png> <./images/leaflet.png>] [17] [18]
+[19]) [20]
+\openout2 = `capitolo3.aux'.
+
+ (capitolo3.tex
+Capitolo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--13
+
+ []
+
+<images/DB.png, id=86, 691.08188pt x 499.8675pt>
+File: images/DB.png Graphic file (type png)
+<use images/DB.png>
+Package pdftex.def Info: images/DB.png  used on input line 20.
+(pdftex.def)             Requested size: 426.79134pt x 308.70952pt.
+
+Overfull \hbox (14.85257pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+
+
+
+]
+[22 <./images/DB.png>]
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+[23] [24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+[26] [27] [28] [29] [30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 333--340
+
+ []
+
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang2.sty
+File: lstlang2.sty 2018/09/02 1.7 listings language file
+)
+[32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+
+ []
+
+
+Overfull \hbox (0.84778pt too wide) in paragraph at lines 416--417
+[]\T1/cmr/bx/n/12 $_SERVER['HTTP_X_FORWARDED_FOR'] \T1/cmr/m/n/12 : Con-tie-ne 
+l'in-di-riz-
+ []
+
+[34]
+Overfull \hbox (1.98659pt too wide) in paragraph at lines 465--469
+\T1/cmr/m/n/12 Per ef-fet-tua-re ta-le con-trol-lo si ve-ri-fi-ca se è sta-ta r
+e-gi-stra-ta \T1/cmr/bx/n/12 $_SES-SION['logon']\T1/cmr/m/n/12 . 
+ []
+
+[35] [36]
+Overfull \hbox (10.44398pt too wide) in paragraph at lines 519--520
+\T1/cmr/bx/n/12 strtolower(pathinfo($target_file,PATHINFO_EXTENSION)) \T1/cmr/m
+/n/12 si ot-
+ []
+
+[37] [38] [39] [40] [41] [42]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 681.
+ [43] [44] [45] [46]
+<images/navbar.png, id=172, 715.92468pt x 98.61844pt>
+File: images/navbar.png Graphic file (type png)
+<use images/navbar.png>
+Package pdftex.def Info: images/navbar.png  used on input line 805.
+(pdftex.def)             Requested size: 426.79134pt x 58.79079pt.
+
+Overfull \hbox (14.85257pt too wide) in paragraph at lines 805--806
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 820--823
+
+ []
+
+[47 <./images/navbar.png>]
+(C:\Users\Bruce\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+[48] [49]
+<images/upload.png, id=183, 359.84438pt x 32.37094pt>
+File: images/upload.png Graphic file (type png)
+<use images/upload.png>
+Package pdftex.def Info: images/upload.png  used on input line 877.
+(pdftex.def)             Requested size: 359.84349pt x 32.37085pt.
+ [50 <./images/upload.png>]
+Overfull \hbox (37.26392pt too wide) in paragraph at lines 914--915
+\T1/cmr/m/n/12 to-re (in que-sto ca-so l'an-co-ra) vie-ne ese-gui-ta la fun-zio
+-ne \T1/cmr/bx/n/12 event.stopPropagation()
+ []
+
+[51] [52]
+<images/manage.png, id=194, 542.77782pt x 361.35pt>
+File: images/manage.png Graphic file (type png)
+<use images/manage.png>
+Package pdftex.def Info: images/manage.png  used on input line 959.
+(pdftex.def)             Requested size: 426.79134pt x 284.14558pt.
+
+Overfull \hbox (14.85257pt too wide) in paragraph at lines 959--960
+ [][] 
+ []
+
+[53 <./images/manage.png>] [54] [55] [56]
+<images/humburgher.png, id=209, 291.33844pt x 87.32625pt>
+File: images/humburgher.png Graphic file (type png)
+<use images/humburgher.png>
+Package pdftex.def Info: images/humburgher.png  used on input line 1064.
+(pdftex.def)             Requested size: 284.52756pt x 85.29132pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1070
+
+ []
+
+[57 <./images/humburgher.png>]
+<images/login.png, id=213, 234.8775pt x 219.06844pt>
+File: images/login.png Graphic file (type png)
+<use images/login.png>
+Package pdftex.def Info: images/login.png  used on input line 1098.
+(pdftex.def)             Requested size: 234.87692pt x 219.06789pt.
+ [58 <./images/login.png>] [59]
+<images/search_basic.png, id=221, 374.90062pt x 214.55156pt>
+File: images/search_basic.png Graphic file (type png)
+<use images/search_basic.png>
+Package pdftex.def Info: images/search_basic.png  used on input line 1141.
+(pdftex.def)             Requested size: 337.40744pt x 193.0946pt.
+ [60 <./images/search_basic.png>] [61]
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1208
+
+ []
+
+<images/create_popup.png, id=230, 367.3725pt x 409.53pt>
+File: images/create_popup.png Graphic file (type png)
+<use images/create_popup.png>
+Package pdftex.def Info: images/create_popup.png  used on input line 1214.
+(pdftex.def)             Requested size: 293.89838pt x 327.62444pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[62]
+Overfull \hbox (10.10341pt too wide) in paragraph at lines 1231--1232
+[]\T1/cmr/m/n/12 il path del-la fo-to del-la pian-ta. (\T1/cmr/m/it/12 id_photo
+_plant_fk \T1/cmr/m/n/12 del-la ta-bel-la \T1/cmr/m/it/12 exists_table\T1/cmr/m
+/n/12 ); 
+ []
+
+[63 <./images/create_popup.png>] [64] [65] [66]
+<images/upload_full.png, id=247, 403.5075pt x 188.95593pt>
+File: images/upload_full.png Graphic file (type png)
+<use images/upload_full.png>
+Package pdftex.def Info: images/upload_full.png  used on input line 1323.
+(pdftex.def)             Requested size: 403.50652pt x 188.95546pt.
+ [67 <./images/upload_full.png>]
+<images/upload_success.png, id=253, 210.03468pt x 48.93282pt>
+File: images/upload_success.png Graphic file (type png)
+<use images/upload_success.png>
+Package pdftex.def Info: images/upload_success.png  used on input line 1358.
+(pdftex.def)             Requested size: 210.03416pt x 48.93268pt.
+[68 <./images/upload_success.png>]
+<images/search_toast.png, id=257, 176.91093pt x 57.21375pt>
+File: images/search_toast.png Graphic file (type png)
+<use images/search_toast.png>
+Package pdftex.def Info: images/search_toast.png  used on input line 1378.
+(pdftex.def)             Requested size: 176.91049pt x 57.2136pt.
+ [69 <./images/search_toast.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
+
+ []
+
+) [70]
+\openout2 = `capitolo4.aux'.
+
+ (capitolo4.tex
+Capitolo 4.
+[71
+
+
+
+
+]
+<images/bitnami.png, id=267, 508.14844pt x 319.1925pt>
+File: images/bitnami.png Graphic file (type png)
+<use images/bitnami.png>
+Package pdftex.def Info: images/bitnami.png  used on input line 34.
+(pdftex.def)             Requested size: 426.79134pt x 268.0955pt.
+
+Overfull \hbox (14.85257pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+[72 <./images/bitnami.png>]
+<images/phpmyadmin.png, id=271, 338.01282pt x 352.31625pt>
+File: images/phpmyadmin.png Graphic file (type png)
+<use images/phpmyadmin.png>
+Package pdftex.def Info: images/phpmyadmin.png  used on input line 45.
+(pdftex.def)             Requested size: 369.88582pt x 385.54922pt.
+
+Overfull \hbox (1.51709pt too wide) in paragraph at lines 49--50
+[]\T1/cmr/m/n/12 si im-met-to-no le cre-den-zia-li - User-na-me : \T1/cmr/bx/n/
+12 root \T1/cmr/m/n/12 -Password : \T1/cmr/bx/n/12 g4p7259CYjOI\T1/cmr/m/n/12 ;
+ 
+ []
+
+[73 <./images/phpmyadmin.png>]
+<images/create_database.png, id=277, 171.64125pt x 123.46124pt>
+File: images/create_database.png Graphic file (type png)
+<use images/create_database.png>
+Package pdftex.def Info: images/create_database.png  used on input line 56.
+(pdftex.def)             Requested size: 171.64081pt x 123.46092pt.
+ [74 <./images/create_database.png>]
+<images/geojson.png, id=281, 484.05844pt x 388.45125pt>
+File: images/geojson.png Graphic file (type png)
+<use images/geojson.png>
+Package pdftex.def Info: images/geojson.png  used on input line 86.
+(pdftex.def)             Requested size: 435.64856pt x 349.60287pt.
+
+Overfull \hbox (23.7098pt too wide) in paragraph at lines 86--87
+ [][] 
+ []
+
+<images/place1.png, id=282, 229.60782pt x 276.28218pt>
+File: images/place1.png Graphic file (type png)
+<use images/place1.png>
+Package pdftex.def Info: images/place1.png  used on input line 94.
+(pdftex.def)             Requested size: 229.60725pt x 276.2815pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75 <./images/geojson.png>]
+<images/place2.png, id=287, 219.82124pt x 241.65282pt>
+File: images/place2.png Graphic file (type png)
+<use images/place2.png>
+Package pdftex.def Info: images/place2.png  used on input line 100.
+(pdftex.def)             Requested size: 219.8207pt x 241.65222pt.
+<images/beacon1.png, id=288, 211.54031pt x 271.76532pt>
+File: images/beacon1.png Graphic file (type png)
+<use images/beacon1.png>
+Package pdftex.def Info: images/beacon1.png  used on input line 106.
+(pdftex.def)             Requested size: 211.53978pt x 271.76465pt.
+ [76 <./images/place1.png> <./images/place2.png>]
+<images/beacon2.png, id=294, 216.81pt x 213.79875pt>
+File: images/beacon2.png Graphic file (type png)
+<use images/beacon2.png>
+Package pdftex.def Info: images/beacon2.png  used on input line 112.
+(pdftex.def)             Requested size: 216.80946pt x 213.79822pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77 <./images/beacon1.png> <./images/beacon2.png>] [78]
+<images/permission.png, id=303, 421.575pt x 399.74344pt>
+File: images/permission.png Graphic file (type png)
+<use images/permission.png>
+Package pdftex.def Info: images/permission.png  used on input line 156.
+(pdftex.def)             Requested size: 295.10048pt x 279.81848pt.
+<images/firefox_https.png, id=304, 677.53125pt x 440.39531pt>
+File: images/firefox_https.png Graphic file (type png)
+<use images/firefox_https.png>
+Package pdftex.def Info: images/firefox_https.png  used on input line 166.
+(pdftex.def)             Requested size: 406.52188pt x 264.23921pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--167
+
+ []
+
+[79 <./images/permission.png>]
+<images/exception.png, id=310, 500.62032pt x 310.91156pt>
+File: images/exception.png Graphic file (type png)
+<use images/exception.png>
+Package pdftex.def Info: images/exception.png  used on input line 173.
+(pdftex.def)             Requested size: 300.37451pt x 186.54836pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80 <./images/firefox_https.png>]
+<images/geolocation_desktop.png, id=315, 475.7775pt x 191.9672pt>
+File: images/geolocation_desktop.png Graphic file (type png)
+<use images/geolocation_desktop.png>
+Package pdftex.def Info: images/geolocation_desktop.png  used on input line 180
+.
+(pdftex.def)             Requested size: 285.46869pt x 115.1812pt.
+ [81 <./images/exception.png> <./images/geolocation_desktop.png>]) [82]
+\openout2 = `capitolo5.aux'.
+
+ (capitolo5.tex
+Capitolo 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+<images/abilita_gps.png, id=324, 311.66437pt x 193.47281pt>
+File: images/abilita_gps.png Graphic file (type png)
+<use images/abilita_gps.png>
+Package pdftex.def Info: images/abilita_gps.png  used on input line 17.
+(pdftex.def)             Requested size: 311.6636pt x 193.47234pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83
+
+
+
+
+]
+<images/safari_gps1.png, id=328, 311.66437pt x 195.73125pt>
+File: images/safari_gps1.png Graphic file (type png)
+<use images/safari_gps1.png>
+Package pdftex.def Info: images/safari_gps1.png  used on input line 25.
+(pdftex.def)             Requested size: 311.6636pt x 195.73076pt.
+<images/safari_gps2.png, id=329, 313.17pt x 32.37094pt>
+File: images/safari_gps2.png Graphic file (type png)
+<use images/safari_gps2.png>
+Package pdftex.def Info: images/safari_gps2.png  used on input line 31.
+(pdftex.def)             Requested size: 313.16922pt x 32.37085pt.
+<images/fotocamera_safari.png, id=330, 319.1925pt x 305.64188pt>
+File: images/fotocamera_safari.png Graphic file (type png)
+<use images/fotocamera_safari.png>
+Package pdftex.def Info: images/fotocamera_safari.png  used on input line 39.
+(pdftex.def)             Requested size: 255.35434pt x 244.51381pt.
+
+[84 <./images/abilita_gps.png> <./images/safari_gps1.png> <./images/safari_gps2
+.png>]
+<images/safari_javascript.png, id=337, 319.94531pt x 177.66376pt>
+File: images/safari_javascript.png Graphic file (type png)
+<use images/safari_javascript.png>
+Package pdftex.def Info: images/safari_javascript.png  used on input line 45.
+(pdftex.def)             Requested size: 255.95659pt x 142.13118pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/location_request.png, id=338, 564.60938pt x 1004.25188pt>
+File: images/location_request.png Graphic file (type png)
+<use images/location_request.png>
+Package pdftex.def Info: images/location_request.png  used on input line 59.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85 <./images/fotocamera_safari.png>]
+Overfull \vbox (5.6478pt too high) has occurred while \output is active []
+
+
+[86 <./images/safari_javascript.png> <./images/location_request.png>]
+<images/homepage.png, id=349, 564.60938pt x 1004.25188pt>
+File: images/homepage.png Graphic file (type png)
+<use images/homepage.png>
+Package pdftex.def Info: images/homepage.png  used on input line 66.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [87 <./images/homepage.png>]
+<images/sidebar.png, id=354, 564.60938pt x 1004.25188pt>
+File: images/sidebar.png Graphic file (type png)
+<use images/sidebar.png>
+Package pdftex.def Info: images/sidebar.png  used on input line 74.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [88 <./images/sidebar.png>]
+<images/beacon_popup.png, id=359, 564.60938pt x 1004.25188pt>
+File: images/beacon_popup.png Graphic file (type png)
+<use images/beacon_popup.png>
+Package pdftex.def Info: images/beacon_popup.png  used on input line 82.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [89 <./images/beacon_popup.png>]
+<images/material_box.png, id=364, 564.60938pt x 1004.25188pt>
+File: images/material_box.png Graphic file (type png)
+<use images/material_box.png>
+Package pdftex.def Info: images/material_box.png  used on input line 90.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [90 <./images/material_box.png>]
+<images/homepage_basic.png, id=369, 564.60938pt x 1004.25188pt>
+File: images/homepage_basic.png Graphic file (type png)
+<use images/homepage_basic.png>
+Package pdftex.def Info: images/homepage_basic.png  used on input line 101.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [91 <./images/homepage_basic.png>]
+<images/sidebar_basic.png, id=375, 564.60938pt x 1004.25188pt>
+File: images/sidebar_basic.png Graphic file (type png)
+<use images/sidebar_basic.png>
+Package pdftex.def Info: images/sidebar_basic.png  used on input line 109.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [92 <./images/sidebar_basic.png>]
+<images/canvas.png, id=380, 564.60938pt x 1004.25188pt>
+File: images/canvas.png Graphic file (type png)
+<use images/canvas.png>
+Package pdftex.def Info: images/canvas.png  used on input line 117.
+(pdftex.def)             Requested size: 169.38411pt x 301.2779pt.
+ [93 <./images/canvas.png>]) [94
+
+
+]
+\openout2 = `conclusioni.aux'.
+
+ (conclusioni.tex
+Capitolo 6.
+[95
+
+
+]) [96] (Tesi.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[]\T1/cmr/m/n/12 https://stackoverflow.com/questions/3003145/how-to-get-the-cli
+ent-ip-
+ []
+
+[97
+
+
+
+]) [98] (Tesi.lof [99
+
+
+])
+\tf@lof=\write4
+\openout4 = `Tesi.lof'.
+
+ [100] (Tesi.aux (frontespizio.aux) (capitolo1.aux)
+(capitolo2.aux) (capitolo3.aux) (capitolo4.aux) (capitolo5.aux)
+(conclusioni.aux)) ) 
+Here is how much of TeX's memory you used:
+ 8192 strings out of 492972
+ 117469 string characters out of 3135883
+ 545891 words of memory out of 3000000
+ 11835 multiletter control sequences out of 15000+200000
+ 21110 words of font info for 55 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,44p,865b,2956s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Bruce\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecrm1000.pk> <C:\Users\Bruce\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\Bruce\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Bruce\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Bruce\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\User
+s\Bruce\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+> <C:\Users\Bruce\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+ccc1440.pk> <C:\Users\Bruce\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\eccc1200.pk> <C:\Users\Bruce\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Bruce\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecbi1440.pk> <C:\Users\Bruce\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Bruce\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Tesi.pdf (100 pages, 4377049 bytes).
+PDF statistics:
+ 990 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,37 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesi.aux
+A level-1 auxiliary file: frontespizio.aux
+A level-1 auxiliary file: prefazione.aux
+A level-1 auxiliary file: capitolo1.aux
+A level-1 auxiliary file: capitolo2.aux
+A level-1 auxiliary file: capitolo3.aux
+A level-1 auxiliary file: capitolo4.aux
+A level-1 auxiliary file: capitolo5.aux
+The style file: plain.bst
+Database file #1: Tesi.bib
+Repeated entry---line 38 of file Tesi.bib
+ : @misc{sito_xampp
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in sito_frontback_end
+Warning--to sort, need author or key in sito_webserver
+Warning--to sort, need author or key in sito_apache
+Warning--to sort, need author or key in sito_dbms
+Warning--to sort, need author or key in sito_mysql_license
+Warning--to sort, need author or key in sito_innodb
+Warning--to sort, need author or key in sito_phpmyadmin
+Warning--to sort, need author or key in sito_xampp
+Warning--to sort, need author or key in sito_php
+Warning--to sort, need author or key in sito_sql
+Warning--to sort, need author or key in sito_web_browser
+Warning--to sort, need author or key in sito_visual_studio_code
+Warning--to sort, need author or key in sito_leaflet
+Warning--to sort, need author or key in sito_geolocation_API
+Warning--to sort, need author or key in sito_WebRTC_API
+Warning--to sort, need author or key in sito_WebRTC_esempi
+Warning--to sort, need author or key in sito_HTML
+Warning--to sort, need author or key in sito_CSS
+Warning--to sort, need author or key in sito_framework_css
+Warning--to sort, need author or key in sito_Js
+Warning--to sort, need author or key in sito_JQuery
+Warning--to sort, need author or key in sito_Ajax
+(There was 1 error message)

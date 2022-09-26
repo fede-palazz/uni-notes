@@ -1,0 +1,46 @@
+\chapter{Conclusioni e Sviluppi Futuri}
+
+\section{Conclusioni}
+Lo sviluppo dell'applicazione web, secondo gli obiettivi fissati, è stato eseguito con successo. Per realizzare questo progetto sono stati utilizzati vari linguaggi e tecniche di programmazione che utilizzati insieme hanno portato a questo risultato. Tuttavia si sarebbero potuti utilizzare differenti approcci e differenti ambienti di sviluppo integrato per realizzare questo applicativo. Tali ambienti sarebbero potuti essere Xamarin, Mono, Android Studio o altri ancora.
+\newline
+L'applicazione web presenta, per come è stata fatta, un grande margine di miglioramento. Possono essere fatte molte implementazioni di nuove funzioni; ora andremo a vedere quali potrebbero essere.
+\section{Sviluppi futuri}
+\subsection{Implementazione AJAX}
+Utilizzando l'applicazione web, notiamo subito che essa non è interattiva, cioè non aggiorna automaticamente i dati se non eseguendo un refresh. Un miglioramento consistente sarebbe implementare una logica di aggiornamento instantaneo della mappa utilizzando l'AJAX. In questo modo qulunque modifica fatta dal pannello di amministrazione (\textit{manage.php}) viene mostrata istantaneamente sulla mappa senza eseguire un refresh della pagina. \newline Ciò serve per avere una corretta visualizzazione in tempo reale dei dati, in modo da tener sempre aggiornati gli utenti per eventuali modifiche e aggiornamenti.
+\subsection{Implementazione logica admin-staff-user}
+Un altro accorgimento che si fa utilizzando l'applicazione web è l'impossibilità di avere un proprio account. 
+Questo tipo di struttura per l'autenticazione mira ad implementare un sistema di accesso basato su 3 livelli: \textbf{user},\textbf{staff} e \textbf{admin}.
+Si dovrà poi inserire un pannello per la registrazione di account user e un pannello di registrazione per account staff nella pagina \textit{manage.php}. Inoltre si implementa un sistema di notifiche. \newline
+Dopo l'autenticazione ogni tipo di account avrà a disposizione un'area riservata come segue:
+\begin{itemize}
+\item \textbf{user} : la possibilità di salvare orti o piante di interesse, in modo da ottenere notifiche per le fioriture;
+\item \textbf{staff} : questo tipo di account può accedere ad alcune funzioni del pannello di controllo (\textit{manage.php}) quali l'inserimento di beacon sulla mappa, il caricamento di immagini, lettura dei report e l'utilizzo di una nuova funzione (non implementata al momento) che permetta di associare un beacon ad un pianta;
+\item \textbf{admin} : controllo generale del pannello \textit{manage.php} e l'implementazione di una nuova sezione volta a creare utenti nel database;
+\end{itemize}
+\subsection{Più funzioni in manage.php per manipolare i dati nel database}
+Un altro aspetto futuro l'implementazione di una sezione nella pagina \textit{manage.php} in grado di effettuare ulteriori manipolazioni al database, quali:
+\begin{itemize}
+\item possibilità di eseguire codice SQL tramite un editor creato ad hoc. (Per esempio per la creazione delle tabelle);
+\item possibilità di specificare i parametri di connessione e non renderli statici dal file \textit{config.php} (in modo da connettersi anche ad altri database);
+\item possibilità di esportare un backup del database;
+\item possibilità di importare un backup del database per effettuare un ripristino dei dati;
+\item possibilità di creare in maniera guidata delle viste;
+\item possibilità di creare in maniera guidata delle function;
+\item possibilità di creare in maniera guidata delle stored procedures;
+\item possibilità di creare in maniera guidata degli indici.
+\end{itemize}
+\section{Correzione dei BUG riscontrati}
+Durante lo sviluppo, si sono riscontrati svariati bug con l'utilizzo dell'API per gestire la fotocamera dei dispositivi, verranno elencati i più rilevanti:
+\begin{itemize}
+\item non funziona con il browser Google Chrome da mobile (versione rilasciata in data 06/2018);
+\item per cambiare fotocamera da quella anteriore a quella posteriore si deve utilizzare il menù a tendina svariate volte prima che abbia effetto;
+\item la funzione \textit{drawImage}, che riceve in input l'immagine in streaming al momento dello pressione del bottone \textit{Scatta} dall'API, permette di disegnare l'immagine sul canvas, presenta un grave problema di resizing come è possibile vedere dalla figura \textbf{5.1.3}.
+\end{itemize}
+\section{Ottimizzazione del Codice}
+Per quanto riguarda il codice, si potrebbero usare diversi approcci per avere più pulizia e efficienza. Dato che non era questo il concept del progetto, verranno ora elencati alcuni accorgimenti possibili per ottimizzare l'efficienza dell'applicazione web.
+Si può approccio per la gestione degli eventi come definito nella sezione 3.3.6.1 separando le funzionalità delle struttura/contenuto e presentazione della pagine web. \newline
+Dunque eliminando tutti gli \textit{onclick} e utilizzare \textit{addEventListener} nella pagina \textit{manage.php}.
+\section{Altri accorgimenti futuri}
+Un possibile accorgimento futuro per rendere l'applicazione web più professionale e desiderabile online è quella di acquistare un dominio, in modo che per raggiungere l'applicazione web si utilizza un'etichetta al posto dell'indirizzo ip. \newline
+Un altro accorgimento è quello di acquistare un certificato in modo che ci si possa connettere all'applicazione web da browser utilizzando una connessione sicura (Https).
+

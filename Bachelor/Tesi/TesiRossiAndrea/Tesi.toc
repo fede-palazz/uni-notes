@@ -1,0 +1,144 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Introduzione}{7}
+\contentsline {section}{\numberline {1.1}Obiettivo}{7}
+\contentsline {section}{\numberline {1.2}Struttura della Tesi}{7}
+\contentsline {section}{\numberline {1.3}La scelta dell'Applicazione Web}{8}
+\contentsline {section}{\numberline {1.4}Indipendenza da software esterni per la gestione del database}{8}
+\contentsline {section}{\numberline {1.5}La scelta di impiegare due Front-end}{8}
+\contentsline {chapter}{\numberline {2}Strumenti utilizzati}{9}
+\contentsline {section}{\numberline {2.1}Front-end e back-end}{9}
+\contentsline {section}{\numberline {2.2}Back End}{9}
+\contentsline {subsection}{\numberline {2.2.1}Software}{9}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Web Server}{9}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Database Management System}{11}
+\contentsline {subsubsection}{\numberline {2.2.1.3}PhpMyAdmin}{12}
+\contentsline {subsubsection}{\numberline {2.2.1.4}XAMPP}{12}
+\contentsline {subsection}{\numberline {2.2.2}Linguaggi di Programmazione}{13}
+\contentsline {subsubsection}{\numberline {2.2.2.1}PHP}{13}
+\contentsline {subsubsection}{\numberline {2.2.2.2}SQL}{13}
+\contentsline {section}{\numberline {2.3}Front End}{15}
+\contentsline {subsection}{\numberline {2.3.1}Software}{15}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Web Browser}{15}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Editor}{15}
+\contentsline {subsubsection}{\numberline {2.3.1.3}Leaflet}{16}
+\contentsline {subsubsection}{\numberline {2.3.1.4}W3C Geolocation API}{17}
+\contentsline {subsubsection}{\numberline {2.3.1.5}WebRTC API}{17}
+\contentsline {subsection}{\numberline {2.3.2}Linguaggi Utilizzati}{18}
+\contentsline {subsubsection}{\numberline {2.3.2.1}HTML}{18}
+\contentsline {subsubsection}{\numberline {2.3.2.2}CSS}{18}
+\contentsline {subsubsection}{\numberline {2.3.2.3}CSS Framework CSS}{18}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Javascript}{19}
+\contentsline {subsubsection}{\numberline {2.3.2.5}JQuery}{19}
+\contentsline {subsubsection}{\numberline {2.3.2.6}AJAX}{19}
+\contentsline {chapter}{\numberline {3}Progettazione e Sviluppo}{21}
+\contentsline {section}{\numberline {3.1}Database Logic}{21}
+\contentsline {subsubsection}{\numberline {3.1.0.1}Contesto e Esigenze del Database}{21}
+\contentsline {subsection}{\numberline {3.1.1}Modello E-R}{22}
+\contentsline {subsection}{\numberline {3.1.2}Tabelle}{22}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Photo}{22}
+\contentsline {subsubsection}{\numberline {3.1.2.2}Beacon}{23}
+\contentsline {subsubsection}{\numberline {3.1.2.3}Species}{24}
+\contentsline {subsubsection}{\numberline {3.1.2.4}Phenological Phase}{24}
+\contentsline {subsubsection}{\numberline {3.1.2.5}Place}{25}
+\contentsline {subsubsection}{\numberline {3.1.2.6}Plant}{26}
+\contentsline {subsubsection}{\numberline {3.1.2.7}exists\_table}{26}
+\contentsline {subsubsection}{\numberline {3.1.2.8}Visitors}{27}
+\contentsline {subsubsection}{\numberline {3.1.2.9}Advice}{28}
+\contentsline {subsection}{\numberline {3.1.3}Schema Logico}{30}
+\contentsline {subsection}{\numberline {3.1.4}Query}{30}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Possibili valori di una Foreign Key}{30}
+\contentsline {subsubsection}{\numberline {3.1.4.2}Piante di un dato Place con una data Fase Fenologica e una data Specie}{31}
+\contentsline {section}{\numberline {3.2}Back-End}{32}
+\contentsline {subsection}{\numberline {3.2.1}Config.php}{32}
+\contentsline {subsection}{\numberline {3.2.2}add.php}{32}
+\contentsline {subsection}{\numberline {3.2.3}delete.php}{32}
+\contentsline {subsection}{\numberline {3.2.4}upload.php}{33}
+\contentsline {subsection}{\numberline {3.2.5}rename\_t.php}{33}
+\contentsline {subsection}{\numberline {3.2.6}rename\_c.php}{33}
+\contentsline {subsection}{\numberline {3.2.7}type.php}{34}
+\contentsline {subsection}{\numberline {3.2.8}function.php}{34}
+\contentsline {subsubsection}{\numberline {3.2.8.1}Ottenere l'IP Address}{34}
+\contentsline {subsubsection}{\numberline {3.2.8.2}Ottenere la data e ora corrente}{35}
+\contentsline {subsubsection}{\numberline {3.2.8.3}Controllo accesso diretto a pagine php}{36}
+\contentsline {subsubsection}{\numberline {3.2.8.4}Smart Redirect Front-End}{36}
+\contentsline {subsection}{\numberline {3.2.9}login.php}{36}
+\contentsline {subsection}{\numberline {3.2.10}logout.php}{36}
+\contentsline {subsection}{\numberline {3.2.11}report.php}{37}
+\contentsline {subsection}{\numberline {3.2.12}upload.php}{37}
+\contentsline {subsection}{\numberline {3.2.13}upload\_canvas.php}{38}
+\contentsline {subsection}{\numberline {3.2.14}upload.php full front-end}{38}
+\contentsline {subsection}{\numberline {3.2.15}images.php}{38}
+\contentsline {subsection}{\numberline {3.2.16}init.php}{39}
+\contentsline {subsubsection}{\numberline {3.2.16.1}Beacon Init}{39}
+\contentsline {subsubsection}{\numberline {3.2.16.2}Place Init}{41}
+\contentsline {subsection}{\numberline {3.2.17}search.php}{42}
+\contentsline {subsection}{\numberline {3.2.18}fill.php}{43}
+\contentsline {subsubsection}{\numberline {3.2.18.1}basic fill.php}{43}
+\contentsline {subsubsection}{\numberline {3.2.18.2}full fill.php}{44}
+\contentsline {subsection}{\numberline {3.2.19}manage.php}{44}
+\contentsline {subsection}{\numberline {3.2.20}fill\_manage\_map.php}{44}
+\contentsline {subsection}{\numberline {3.2.21}main index.php}{45}
+\contentsline {subsection}{\numberline {3.2.22}front end index.php}{45}
+\contentsline {section}{\numberline {3.3}Front-End}{46}
+\contentsline {subsection}{\numberline {3.3.1}manage.php}{47}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Navbar}{47}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Scrolling delle sezioni}{48}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Sezione inserimento beacon}{48}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Sezione Caricamento Immagini}{50}
+\contentsline {subsubsection}{\numberline {3.3.1.5}Database data management}{50}
+\contentsline {subsection}{\numberline {3.3.2}Funzioni javascript impiegate nella sezione 3.3.1.5}{54}
+\contentsline {subsubsection}{\numberline {3.3.2.1}add}{54}
+\contentsline {subsubsection}{\numberline {3.3.2.2}delete\_row}{54}
+\contentsline {subsubsection}{\numberline {3.3.2.3}update}{55}
+\contentsline {subsubsection}{\numberline {3.3.2.4}rename\_column}{55}
+\contentsline {subsubsection}{\numberline {3.3.2.5}rename\_table}{56}
+\contentsline {subsubsection}{\numberline {3.3.2.6}change\_column}{56}
+\contentsline {subsection}{\numberline {3.3.3}Le differenze sostanziali tra i due front-end}{56}
+\contentsline {subsection}{\numberline {3.3.4}basic front-end}{57}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Men\IeC {\`u} humburgher}{57}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Principio di funzionamento delle finestre modali}{58}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Finestra modale - Login}{58}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Finestra modale - Segnala}{59}
+\contentsline {subsubsection}{\numberline {3.3.4.5}Finestra modale - Scatta Foto}{59}
+\contentsline {subsubsection}{\numberline {3.3.4.6}Finestra modale - Ricerca}{60}
+\contentsline {subsubsection}{\numberline {3.3.4.7}Finestra Modale dei beacon - Funzione create\_popup(..)}{62}
+\contentsline {subsubsection}{\numberline {3.3.4.8}Caricamento del Canvas con Xml HTTP Request}{64}
+\contentsline {subsection}{\numberline {3.3.5}Full Front-End}{66}
+\contentsline {subsubsection}{\numberline {3.3.5.1}Side Navbar}{66}
+\contentsline {subsubsection}{\numberline {3.3.5.2}Form Caricamento Immagini}{67}
+\contentsline {subsubsection}{\numberline {3.3.5.3}Effettuare una Ricerca}{68}
+\contentsline {subsubsection}{\numberline {3.3.5.4}Finestra Modale dei beacon - Funzione create\_popup(..)}{69}
+\contentsline {subsection}{\numberline {3.3.6}Javascript vs JQuery}{69}
+\contentsline {subsubsection}{\numberline {3.3.6.1}Approccio nel Coding}{69}
+\contentsline {subsubsection}{\numberline {3.3.6.2}Performance}{70}
+\contentsline {chapter}{\numberline {4}Set up dell'applicazione web}{71}
+\contentsline {section}{\numberline {4.1}Hosting}{71}
+\contentsline {section}{\numberline {4.2}Database}{71}
+\contentsline {subsection}{\numberline {4.2.1}Putty Setup}{71}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Connessione a PhpMyAdmin}{73}
+\contentsline {subsection}{\numberline {4.2.2}geojson.io}{75}
+\contentsline {section}{\numberline {4.3}Caricamento Files con WinSCP}{78}
+\contentsline {section}{\numberline {4.4}Disabilitare il modulo Pagespeed}{78}
+\contentsline {section}{\numberline {4.5}Permessi per uploads}{79}
+\contentsline {section}{\numberline {4.6}Accesso all'applicazione Web con il protocollo HTTPS}{80}
+\contentsline {section}{\numberline {4.7}Gestione del Database tramite script manage.php}{82}
+\contentsline {chapter}{\numberline {5}Panoramica dell'applicazione web da dispositivo mobile}{83}
+\contentsline {section}{\numberline {5.1}Dispositivo}{83}
+\contentsline {subsection}{\numberline {5.1.1}Set Up del Dispositivo}{83}
+\contentsline {section}{\numberline {5.2}Navigazione dell'applicazione Web}{86}
+\contentsline {subsection}{\numberline {5.2.1}Full Front-End}{86}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Richiesta di Localizzazione}{86}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Homepage}{87}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Sidebar}{88}
+\contentsline {subsubsection}{\numberline {5.2.1.4}Form Modale al click del Beacon}{89}
+\contentsline {subsubsection}{\numberline {5.2.1.5}Material Box della Form Modale del Beacon}{90}
+\contentsline {subsection}{\numberline {5.2.2}Basic Front-End}{91}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Homepage}{91}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Sidebar}{92}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Finestra Modale per scattare Foto}{93}
+\contentsline {chapter}{\numberline {6}Conclusioni e Sviluppi Futuri}{95}
+\contentsline {section}{\numberline {6.1}Conclusioni}{95}
+\contentsline {section}{\numberline {6.2}Sviluppi futuri}{95}
+\contentsline {chapter}{Bibliografia}{97}
+\contentsline {chapter}{Elenco delle figure}{100}
