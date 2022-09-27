@@ -144,13 +144,17 @@
 
 ## PM come integratore
 
-- project management -> <u>attività di coordinamento</u> (integrare delle risorse materiali e non, persone, ecc... per raggiungere degli obbiettivi)
-- PM come <u>coordinatore</u>
-- un progetto viene solitamente splittato in parti che verranno svolte indipendentemente, il PM deve occuparsi dell'integrazione tra le parti
+- project management -> <u>attività di coordinamento</u> 
+- PM come <u>coordinatore</u>, deve integrare:
+  - risorse materiali e non materiali
+  - persone (membri del team)
+  - costi, tempi, qualità
+  - parti del progetto svolte indipendentemente l'una dall'altra
+
 
 ## Evoluzione
 
-- il PM dovrebbe aver svolto precedentemente un percorso tecnico rispetto, ad esempio, un percorso economico
+- il PM dovrebbe aver svolto precedentemente un <u>percorso tecnico</u> rispetto, ad esempio, un percorso economico
 - ciò perchè sarà più facile stimare risorse, tempi, costi avendo già avuto esperienze pregresse, evitando così di sovra/sottostimare i parametri
 - in caso contrario bisognerà fare affidamento al team manager (tecnico) che tenderà a sovrastimare tempi e costi
 - un'azienda deve:
