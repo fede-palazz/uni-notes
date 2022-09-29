@@ -1,5 +1,6 @@
 # Gestione dell'integrazione del Progetto
 
+- I° area della certificazione PMI
 - project manager come <u>integratore</u>
   - media le esigenze delle parti cercando di accontentare tutti
   - suddivide e ricompone il progetto in varie parti
@@ -138,10 +139,10 @@
   - **altre componenti**
     - <u>piano di gestione delle modifiche</u> - regole con le quali si richiedono e approvano modifiche
     - <u>piano di gestione della configurazione</u> - stabilire come tenere traccia delle descrizioni degli elementi del progetto e dei loro aggiornamenti
-    - <u>baseline di misurazione delle prestazioni</u>
-    - <u>ciclo di vita del progetto</u>
-    - <u>approccio allo sviluppo</u> - predittivo, iterativo, agile, ibrido
-    - <u>revisioni gestionali</u>
+    - baseline di misurazione delle prestazioni
+    - ciclo di vita del progetto
+    - approccio allo sviluppo - predittivo, iterativo, agile, ibrido
+    - revisioni gestionali
 
 - **Kick-off meeting**
   - prima riunione in cui il Project Management Team incontra gli stakeholder per discutere del progetto
@@ -206,3 +207,37 @@
   - si mettono in atto le opportune modifiche (ogni scostamento va tracciato)
 - tracciamento
   - alcuni software permettono di visualizzare lo stato di avanzamento preventivato e confrontarlo con quello reale
+
+## Processo Perform Integrated Change Control
+
+- processi di monitoraggio e controllo
+- ci riferiamo a <u>modifiche pesanti</u>
+- le modifiche vanno monitorate/controllate:
+  - capire se accettare o meno la modifica
+  - verificare quali ripercussione ha sulla baseline
+- il PM, in merito alle modifiche, deve:
+  - esaminarle
+  - analizzare il loro impatto
+  - approvarle o meno
+  - verificare che siano state messe in pratica
+  - verificare gli impatti sulla baseline
+  - verificare la configurazione del prodotto (nuova versione)
+- se le modifiche sono molto impattanti sulla strategia del progetto (influiscono sull'ambito), i manager strategici dell'azienda devono essere informati ed approvarle (es: modifica di un deliverable già pensato)
+- regole per la gestione delle modifiche
+  - <u>piano di gestione delle modifiche</u>
+    - definizione a monte delle regole con cui accettare o meno delle modifiche
+    - es: se la modifica riguarda una legge bisogna farla, se l'impatto è > 3% allora la scarto
+    - serve ad agire in <u>modo imparziale</u>
+    - bisogna tenere traccia di tutte le modifiche, anche quelle scartate
+  - <u>piano di gestione della configurazione</u>
+
+## Processo Close Projeect or Phase
+
+- riguarda le attività di finalizzazione di tutte le
+  attività del progetto, oppure, in progetti multi-fase, le attività di una singola fase
+- <u>processo di mirroring</u>: non si rilascia direttamente il software nel sistema del cliente ma si mantiene per un periodo in un sistema identico ma fittizio
+- anche quando il progetto fallisce, la chiusura deve avvenire in modo controllata
+  - analisi delle cause del fallimento -> lezioni da apprendere in futuro
+- subito dopo la chiusura vi è un passaggio da creazione del prodotto a <u>manutenzione</u> dello stesso
+- aggiornamento degli asset di processo
+  - registro delle lezioni apprese

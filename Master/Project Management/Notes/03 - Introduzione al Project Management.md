@@ -9,14 +9,14 @@
   - deve essere <u>univoco</u>
     - non è ripetibile
   - può riguardare un:
-    - prodotto
-    - servizio
-    - risultato
+    - prodotto (es: sistema informatico)
+    - servizio (es: call center)
+    - risultato (es: risultato di uno studio)
   - può essere:
     - interno 
       - utile ai fini aziendali
     - esterno
-      - anche detti commesse
+      - anche detti <u>commesse</u>
       -  nascono dall'esigenza di un cliente
       - commissione di un progetto ad un'altra azienda
       - si mantiene cmq una <u>supervisione interna</u>
