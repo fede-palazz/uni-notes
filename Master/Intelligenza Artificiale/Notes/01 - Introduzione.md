@@ -43,9 +43,9 @@ playes_guitar(sandro) :- listens_to_music(sandro).
 
 - ogni frase che inizia con lettera maiuscola viene interpretata come <u>variabile</u> 
   - racchiudere tra apici per ovviare
-  - Anna -> variabile
-  - 'Anna' -> termine, costante
-- una parola <u>non può iniziare</u> con un '_'
+    - `Anna` -> variabile
+    - `'Anna'` -> termine, costante
+- una parola <u>non può iniziare</u> con un `_`
   - definisce <u>variabili anonime</u> (non vi si può assegnare valore)
 
 ### Interrogazioni
@@ -68,12 +68,12 @@ happy(_).			# True
 
 ## Fatti
 
-- sentenze che consideriamo come vere
+- sentenze che assumiamo come vere
 - <u>sintassi</u>: `relation(object1,object2,...)`
-  - cat(tom)
-  - loves_to_eat(roberto,pasta) -> relazione, chi, cosa (roberto loves_to_eat pasta)
-  - smart(elisa). -> elisa è intelligente
-  - of_color(hair,black).
+  - `cat(tom)`
+  - `loves_to_eat(roberto,pasta)` -> relazione, chi, cosa (roberto loves_to_eat pasta)
+  - `smart(elisa).` -> elisa è intelligente
+  - `of_color(hair,black).`
 
 ## Regole
 

@@ -8,7 +8,7 @@
     - ha un inizio e una fine
   - deve essere <u>univoco</u>
     - non è ripetibile
-  - può riguardare un:
+  - <u>scopo</u>: creare qualcosa:
     - prodotto (es: sistema informatico)
     - servizio (es: call center)
     - risultato (es: risultato di uno studio)
@@ -18,16 +18,15 @@
     - esterno
       - anche detti <u>commesse</u>
       -  nascono dall'esigenza di un cliente
-      - commissione di un progetto ad un'altra azienda
-      - si mantiene cmq una <u>supervisione interna</u>
+      - possono essere commissionati ad un'altra azienda  (mantenendo una <u>supervisione interna</u>)
   - nascita di un progetto
     - quando <u>nasce un'idea</u> (filosofico)
-    - quando è stato <u>selezionata ed approvato dall'azienda</u> e si è effettuato un *kickoff-meeting* (riunione iniziale tra i partner che segna ufficialmente l'inizio del progetto)
+    - quando è stato <u>selezionata ed approvato dall'azienda</u> e si è tenuto un *kickoff-meeting* (riunione iniziale tra i partner che segna ufficialmente l'inizio del progetto)
 - **project management**
   - insieme delle attività che si conducono per portare avanti un progetto
   - project vs design
-    - project - gestione del progetto lato <u>gestionale</u> (progetto)
-    - design - gestione del progetto lato <u>tecnico</u> (progettazione)
+    - **project** - gestione del progetto lato <u>gestionale</u> (*progetto*)
+    - **design** - gestione del progetto lato <u>tecnico</u> (*progettazione*)
   - <u>gruppi di processi</u> (macro fasi) di gestione di un progetto (alcuni in parallelo tra loro)
     - avvio
     - pianificazione
@@ -35,30 +34,33 @@
     - monitoraggio e controllo
     - chiusura
   - attività gestionali
-    - identificazione dei requisiti
+    - identificazione dei requisiti (*requirements*)
     - analisi delle esigenze, aspettative degli stakeholders
-    - definizione e persiguimento degli obbiettivi
-    - determinazione di:
-      - ambito (scope)
-      - tempi
-      - qualità
-      - costi
-      - risorse
+    - definizione e perseguimento degli obbiettivi
+    - determinazione dei vincoli di progetto:
+      - ambito (*scope*)
+      - tempi (*schedule*)
+      - qualità (*quality*)
+      - costi (*cost*)
+      - risorse (*resources*)
+      - rischi (*risk*)
 - **programma**
   - gruppo di progetti tra loro correlati
     - possono condividere delle risorse
     - la correlazione influisce su tempi, cosi
-  - program manager
-    - gestore di un programma
+  - <u>program manager</u>
+    - responsabile di un programma
     - PM con qualche anno di esperienza
 - **portfolio**
-  - insieme di progetti o programmi, anche non correlati, gestiti dall'azienda per raggiungere obbietivi strategici di business
+  - <u>insieme di progetti e programmi</u>, anche non correlati, gestiti da un'azienda per raggiungere gli obbietivi strategici di business
   - implica un alto budget
-  - gestito da un top manager aziendale
-- **unità operative**
-  - singoli individui che si occupano di svolgere <u>attività operative</u>
-    - ripetitive (di routine)
-    - progettuali (atta a svolgere un progetto)
+  - gestito da un <u>top manager</u> aziendale
+- **lavoro operativo** (Operational Work)
+  - <u>attività ripetitive</u> eseguite dalle <u>unità operative</u> (singoli individui del team)
+  - al contrario di un progetto:
+    - è <u>ripetitivo</u>
+    - <u>non ha fine</u>
+
 
 ## Project Management Organizzativo
 
@@ -69,39 +71,45 @@
 
 ## Ciclo di vita di un progetto
 
-- insieme delle <u>fasi tecniche</u>
+- insieme delle <u>fasi tecniche</u> in cui un progetto è diviso
 - famiglie
   - predittivi
     - simili ai cicli plan-based (<u>pianificazione totale</u> prima dell'implementazione)
+    - usati nei progetti di costruzione ed impiantistica
   - iterativi e incrementali
     - pianificazione ed implementazione di parti del progetto per volta
-    - ci sono più iterazioni (planning+implementation)
+    - ci sono <u>più iterazioni</u> (planning + implementation)
+    - in ogni iterazione si realizza una parte del progetto che viene realizzato in <u>modo incrementale</u>
     - molto comune nei progetti ICT
   - adattivi
-    - metodologie Agile
-    - progetti con cambiamenti frequenti di piccole/medie dimensioni
-    - si lavora con iterazioni di durata fissa (es: un mese)
+    - <u>metodologie Agile</u>
+    - utilizza cicli iterativi e incrementali di <u>durata molto breve</u> e <u>fissa</u> (2-3 settimane)
     - in ogni iterazione si porta avanti una piccola parte del progetto
+    - requisiti ed ambito vengono definiti con il passare delle iterazioni
+    - adatto per progetti con cambiamenti frequenti di piccole/medie dimensioni
   - ibridi
     - combinazione di ciclio predittivi e adattivi
 - ciclo di vita del prodotto
   - più lungo di quello del progetto
-  - include fasi di manutenzione del prodotto
+  - include:
+    - fasi di manutenzione del prodotto
+    - progetti per generare nuove versioni di esso
   - termina quando il prodotto viene dismesso
 
 ## Fasi del progetto
 
-- ogni progetto va suddiviso in fasi
-- ciò dà la possibilità di fare un controllo al termine di ogni fase (ritardi, consumi)
+- ogni progetto viene suddiviso in fasi
+- ciò dà la possibilità di fare un controllo al termine di ognuna (ritardi, consumi)
 
 ## Processi
 
-- attività che compongono un progetto
+- attività condotte del team di progetto
 - serie di azioni atte a raggiungere un risultato
+- associati ad un <u>gruppo</u> e ad un'<u>area di conoscenza</u>
 - tipologie
   - <u>project management</u> (gestionali)
   - <u>orientati al prodotto</u> (tecnici)
-  - parte tecnica e gestionale si sovrappongono spesso
+  - (parte tecnica e gestionale si sovrappongono spesso)
 - <u>gruppi di processi</u> (macro fasi)
   - avvio
   - pianificazione
@@ -236,28 +244,38 @@
   - assenza di ruoli precisi
   - PM part time senza incarico formale
   - difficilmente nascono progetti
+  
 - **funzionale** (Functional Organization)
   - concentrata sulle specializzazioni
   - ogni funzione esegue il suo lavoro indipendentemente dalle altre
   - possono nascere progetti, ma più che al PM si risponde direttamente alla divisione
-  - screen slide 58
+  
+  ![](img/03_01.png)
+  
 - **a matrice** (Matrix Organization)
+
 - **matrice debole** (Weak Matrix)
   - pur prevedendo un team di progetto, è poco orientata alla gestione dei progetti
   - i team member rispondono a pieno al manager funzionale
   - autorità minima del PM
+  
 - **matrice bilanciata** (Balanced Matrix)
   - il PM ha lo stesso peso dei manager funzionali
   - possono sorgere problemi in caso di conflitto tra le due figure
+  
 - **matrice forte** (Strong Matrix)
   - il PM ha più potere dei manager divisionali
+  
 - **per progetti** (Projectized Organization)
   - le divisioni contano poco, l'importanza va ai progetti
   - il PM risponde solo al top manager
+  
 - **virtuale** (Virtual Organization)
   - gruppi di progetto (anche di aziende diverse) che lavorano virtualmente sullo stesso progetto attraverso piattaforme online (teams, zoom)
+  
 - **ibrida** (Hybrid Organization)
   - mescolanza delle caratteristiche delle organizzazioni descritte
+  
 - **con PMO** (PMO Organization)
   - tiene tutte le lezioni apprese
   - organizza i gruppi
