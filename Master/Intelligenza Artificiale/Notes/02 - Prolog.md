@@ -1,5 +1,7 @@
 # Prolog
 
+[TOC]
+
 ## Introduzione
 
 - book: Prolog Programming for Artificial Intelligence
@@ -16,11 +18,16 @@
       - rules(arguments)
         - verifica se la regola è vera o falsa
     - file con estensione `.pl`
+
+## Basic commands
+
 - commenti `% commento `
 - get current working directory: `working_directory(D,D).`
 - set new working directory: `working_directory(D,"path").`
 - print files in CWD: `ls.`
 - switch db: `consult("DB.pl").`, `[DB].`
+- clear the console: `tty_clear.`
+- print to console: `write('something').`, `write(X),nl.` (nl = new line)
 
 ## Unification
 
@@ -192,7 +199,31 @@ female(pat)
 ?- female(Y).
 ```
 
-### Operatori di comparazione
+## Operators
+
+- <u>functions</u> to work arithmetic, logic, comparison and other operations
+
+- **Arithmetic operators**
+
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (*)
+  - Division (%)
+  - Power (**)
+  - Integer division (//)
+  - Modules (mod)
+  - Square root (sqrt)
+  - maximum (max)
+
+  ```perl
+  # Examples (necessary to use 'is')
+  ?- ADD is 45 + 12
+  ?- SUB is 45 - 12
+  ?- MUL is 45 * 12
+  ?- POW is 12 ^ 2
+  ```
+
+- **Comparison operators**
 
 | Operator |         Meaning          |       Example       |
 | :------: | :----------------------: | :-----------------: |
@@ -201,14 +232,90 @@ female(pat)
 |  X >= Y  | greater than or equal to |       X >= Y        |
 |  X =< Y  |  less than or equal to   |                     |
 | X =:= Y  |       equal values       | 1+2 =:= 2+1 -> TRUE |
-| X =/= Y  |        not equals        |                     |
+| X =\= Y  |        not equals        |    check X \= Y     |
 |  X = Y   |      equal patterns      | 1+2 = 2+1 -> FALSE  |
+
+```perl
+# Examples
+?- 13 * 2 > 12 + 3.				# yes
+?- 13 * 2 < 12 + 3.				# no
+
+# Equal operator
+?- 12 + 13 =:= 13 + 12.			# yes
+?- ?- 12 + 13 =:= 13 + 14.		# no
+```
+
+## Input and Output
+
+```perl
+cube :-
+	write('Write a number: '),
+	read(Number),
+	process(Number).
+process(stop) :- !.
+process(Number) :-
+	C is Number * Number * Number,
+	write('Cube of '),write(Number),write(': '),write(C),nl,cube.
+```
+
+- tab() predicate -> blank space between variables, etc.
+
+```perl
+?- write('hello'),tab(15),write('world').
+# hello               world
+?- write('We'),tab(5),write('use'),tab(5),write('tabs').
+# We     use     tabs
+```
+
+## Built-in predicates
+
+- `var(X)`
+
+  - when X is not initialized it will show true, otherwise false
+  - it needs to be declared before
+
+  ```perl
+  ?- var(X).
+  # yes
+  ```
+
+- `novar(X)`
+
+  - when X is not initialized it will show false, otherwise true
+  - it doesn't be to be declared
+
+- `atom(X)`
+
+  - it will return true when a non-variable term with 0 argument and a not numeric term is passed as X, otherwise false
+
+- `number(X)`
+
+  - it will return true if X is a number or a number declared variable, otherwise false
+
+  ```perl
+  X=5, number(X).
+  # true
+  ```
+
+- `integer(X)`
+  - it will return true when X is a positive or negative integer value, false otherwise
+- `float(X)`
+  - it will return true when X is a floating point value, false otherwisw
+
+- `compound(X)`
+  - compound structures: lists
 
 ## Predicati ricorsivi
 
 ### Cicli
 
 - vengono implementanti attraverso la ricorsione
+
+```perl
+# Es: stampare i numeri da X fino a 10
+count_to_10(10) :- write(10),nl.	# Final decision
+count_to_10(X) :- write(X),nl, Y is X+1, count_to_10(Y).
+```
 
 ```perl
 # Es: determinare se un numero è intero o meno (DB is_int.pl)
@@ -228,7 +335,20 @@ return is_int(x-1);
 }
 ```
 
-## Liste
+```perl
+# Es: creare un loop che prende il valore più piccolo e più grande
+count_down(L,H) :- 		# L -> valore più piccolo
+	between(L,H,Y),		# if Lowest between H and Y
+	Z is H - Y,
+	write(Z),nl.
+
+count_up(L,H) :- 
+	between(L,H,Y),
+	Z is H + Y,
+	write(Z),nl.
+```
+
+### Liste
 
 - struttura scalare (simile ai vettori) ma possono contenere <u>elementi di tipi diversi</u>
 - sintassi: `[X,Y,Z,...]`
