@@ -73,80 +73,92 @@
 
 - insieme delle <u>fasi tecniche</u> in cui un progetto è diviso
 - famiglie
-  - predittivi
+  - **predittivi**
     - simili ai cicli plan-based (<u>pianificazione totale</u> prima dell'implementazione)
     - usati nei progetti di costruzione ed impiantistica
-  - iterativi e incrementali
+  - **iterativi e incrementali**
     - pianificazione ed implementazione di parti del progetto per volta
     - ci sono <u>più iterazioni</u> (planning + implementation)
     - in ogni iterazione si realizza una parte del progetto che viene realizzato in <u>modo incrementale</u>
     - molto comune nei progetti ICT
-  - adattivi
+  - **adattivi**
     - <u>metodologie Agile</u>
     - utilizza cicli iterativi e incrementali di <u>durata molto breve</u> e <u>fissa</u> (2-3 settimane)
     - in ogni iterazione si porta avanti una piccola parte del progetto
     - requisiti ed ambito vengono definiti con il passare delle iterazioni
     - adatto per progetti con cambiamenti frequenti di piccole/medie dimensioni
-  - ibridi
+  - **ibridi**
     - combinazione di ciclio predittivi e adattivi
 - ciclo di vita del prodotto
   - più lungo di quello del progetto
   - include:
-    - fasi di manutenzione del prodotto
-    - progetti per generare nuove versioni di esso
+    - <u>fasi di manutenzione</u> del prodotto
+    - progetti per generare <u>nuove versioni</u> di esso
   - termina quando il prodotto viene dismesso
 
 ## Fasi del progetto
 
-- ogni progetto viene suddiviso in fasi
-- ciò dà la possibilità di fare un controllo al termine di ognuna (ritardi, consumi)
+- ogni progetto viene <u>suddiviso in fasi</u>
+- possibilità di fare un controllo al termine di ognuna (ritardi, consumi)
+- possono essere <u>parzialmente sovrapposte</u> o <u>parallele</u>
 
 ## Processi
 
-- attività condotte del team di progetto
-- serie di azioni atte a raggiungere un risultato
+- <u>serie di attività</u> condotte del team di progetto atte a <u>raggiungere un risultato</u>
 - associati ad un <u>gruppo</u> e ad un'<u>area di conoscenza</u>
 - tipologie
   - <u>project management</u> (gestionali)
   - <u>orientati al prodotto</u> (tecnici)
   - (parte tecnica e gestionale si sovrappongono spesso)
-- <u>gruppi di processi</u> (macro fasi)
-  - avvio
-  - pianificazione
-  - esecuzione
-  - monitoraggio e controllo
-  - chiusura
-- screenshot slide 22
-- tecniche di project management -> possono essere viste come una tabella dove:
-  - **colonne** - gruppi di processo (fasi)
-  - **righe** - <u>aree di conoscenza</u> (problematiche che il PM deve considerare)
-- lavoreremo prima per righe e successivamente per colonne
 
-## Problematiche di un progetto
+### Gruppi di processo (Process Group)
 
-- ambito
-  - definisce il confine del progetto (cosa è dentro e cosa è fuori)
-- schedulazione
-  - gestione dei tempi
-- costi
+- <u>gruppi di processo</u> (macro fasi)
+  - avvio (*initiating*)
+  - pianificazione (*planning*)
+  - esecuzione (*executing*)
+  - monitoraggio e controllo (*monitoring & controlling*)
+  - chiusura (*closing*)
+
+<img src="img/Screenshot_08-10-2022_115558.png" alt="Screenshot_08-10-2022_11:55:58" style="zoom: 67%;" />
+
+### Aree di conoscenza (Knowledges Areas)
+
+- **integrazione** (*integration*)
+  - assicura che elementi, tematiche e stakeholders siano coordinati e integrati
+  - definisce il <u>Project Management Plan</u>
+- **ambito** (*scope*)
+  - stabilisce il <u>confine del progetto</u> (cosa è dentro e cosa è fuori)
+  - definisce:
+    - <u>Scope Management Plan</u>
+    - <u>Scope Baseline</u>
+
+- **schedulazione** (*schedule*)
+  - gestione dei tempi (terminare il progetto nei tempi previsti)
+  - definisce:
+    - <u>Schedule Management Plan</u>
+    - <u>Schedule Baseline</u>
+- **costi** (*cost*)
   - monitoraggio e gestione del budget
-- risorse
+- **risorse** (*resource*)
   - gestione risorse umane, materiali e immateriali
-- qualità
+- **qualità **(*quality*)
   - norme sulla qualità
-- rischi
-- comunicazione
-- approvigionamenti
+- **rischi** (*risk*)
+- **comunicazione **(*communications*)
+- **approvigionamenti** (*procurement*)
   - redigere contratti di approvigionamento
-- stakeholder
-- integrazione
+- **stakeholder** (*stakeholders*)
 
-## Processi per area di conoscenza
+### Processi per area di conoscenza
 
 - ad ogni area sono associati diversi processi
-- il primo processo di ogni area riguarda la <u>pianificazione</u> della stessa
-- l'ultimo riguardo il <u>controllo</u> dell'area
-- 10 righe, 5 colonne, diversi processi per ogni riga
+  - il primo processo di ogni area riguarda la <u>pianificazione</u> della stessa
+  - l'ultimo riguardo il <u>controllo</u> dell'area
+- *tecniche di project management* -> tabella di 10 righe e 5 colonne, dove:
+  - **colonne** - <u>gruppi di processo</u> (macro fasi)
+  - **righe** - <u>aree di conoscenza</u> (problematiche che il PM deve considerare)
+- lavoreremo prima per righe e successivamente per colonne
 
 ## Dati del progetto
 

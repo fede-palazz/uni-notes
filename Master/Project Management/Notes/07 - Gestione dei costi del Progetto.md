@@ -236,3 +236,4 @@
 
   - **ETC** -> costo stimato residuo del progetto alla data attuale
     - EAC = AC + ETC (costo speso fino ad ora + previsione di spesa futura)
+    - 
