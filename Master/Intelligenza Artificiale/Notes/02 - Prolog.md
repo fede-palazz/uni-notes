@@ -4,7 +4,6 @@
 
 ## Introduzione
 
-- book: Prolog Programming for Artificial Intelligence
 - SWI-Prolog
   - **listener**
     - richieste (query-goal) - interrogazioni al Knowledge Base
@@ -205,15 +204,15 @@ female(pat)
 
 - **Arithmetic operators**
 
-  - Addition (+)
-  - Subtraction (-)
-  - Multiplication (*)
-  - Division (%)
-  - Power (**)
-  - Integer division (//)
-  - Modules (mod)
-  - Square root (sqrt)
-  - maximum (max)
+  - Addition `+`
+  - Subtraction `-`
+  - Multiplication `*`
+  - Division `%`
+  - Power `**`
+  - Integer division `//`
+  - Modules `mod`
+  - Square root `sqrt`
+  - maximum `max`
 
   ```perl
   # Examples (necessary to use 'is')
@@ -225,15 +224,16 @@ female(pat)
 
 - **Comparison operators**
 
-| Operator |         Meaning          |       Example       |
-| :------: | :----------------------: | :-----------------: |
-|  X < Y   |       greater than       |        X < Y        |
-|  X > Y   |        less than         |        X > Y        |
-|  X >= Y  | greater than or equal to |       X >= Y        |
-|  X =< Y  |  less than or equal to   |                     |
-| X =:= Y  |       equal values       | 1+2 =:= 2+1 -> TRUE |
-| X =\= Y  |        not equals        |    check X \= Y     |
-|  X = Y   |      equal patterns      | 1+2 = 2+1 -> FALSE  |
+| Operator |         Meaning          |       Example        |
+| :------: | :----------------------: | :------------------: |
+|    <     |       greater than       |        X < Y         |
+|    >     |        less than         |        X > Y         |
+|    >=    | greater than or equal to |        X >= Y        |
+|    =<    |  less than or equal to   |        X =< Y        |
+|   =:=    |       equal values       | 1+2 =:= 2+1 -> true  |
+|   =\=    |        not equals        | 1+2 =\= 2+1 -> false |
+|    =     |      equal patterns      |  1+2 = 2+1 -> false  |
+|    \=    |   not equals patterns    |  1+2 \= 2+1 -> true  |
 
 ```perl
 # Examples
@@ -245,7 +245,10 @@ female(pat)
 ?- ?- 12 + 13 =:= 13 + 14.		# no
 ```
 
-## Input and Output
+## Inputs and Outputs
+
+- print to console: `write('something').`
+- print a new line: `write(X),nl.`
 
 ```perl
 cube :-
@@ -255,7 +258,8 @@ cube :-
 process(stop) :- !.
 process(Number) :-
 	C is Number * Number * Number,
-	write('Cube of '),write(Number),write(': '),write(C),nl,cube.
+	write('Cube of '),write(Number),write(':'),
+	write(C),nl,cube.
 ```
 
 - tab() predicate -> blank space between variables, etc.
@@ -268,6 +272,20 @@ process(Number) :-
 ```
 
 ## Built-in predicates
+
+|  Predicate  |                      Description                       |
+| :---------: | :----------------------------------------------------: |
+|   var(X)    | succeeds if X is currently an un-instantiated variable |
+|  novar(X)   |                                                        |
+|   atom(X)   |                                                        |
+|  number(X)  |                                                        |
+| integer(X)  |                                                        |
+|  float(X)   |                                                        |
+|  atomic(X)  |                                                        |
+| compound(X) |                                                        |
+|  ground(X)  |                                                        |
+
+
 
 - `var(X)`
 
@@ -307,8 +325,9 @@ process(Number) :-
 
 ## Predicati ricorsivi
 
-### Cicli
+### Loops
 
+- utilizzati per eseguire blocchi di codice molteplici volte
 - vengono implementanti attraverso la ricorsione
 
 ```perl
@@ -348,7 +367,23 @@ count_up(L,H) :-
 	write(Z),nl.
 ```
 
-### Liste
+### If-Then-Else
+
+- strutture decisionali
+- utilizzate per eseguire determinate operazioni quando verificate certe condizioni
+
+```perl
+# If-Then-Else statement
+gt(X,Y) :- X >= Y, write('X is greater').
+gt(X,Y) :- X < Y, write('X is smaller').
+
+# If-Elif-Else statement
+gte(X,Y) :- X >= Y, write('X is greater').
+gte(X,Y) :- X =:= Y, write('X and Y are equal').
+gte(X,Y) :- X < Y, write('X is smaller').
+```
+
+### Lists
 
 - struttura scalare (simile ai vettori) ma possono contenere <u>elementi di tipi diversi</u>
 - sintassi: `[X,Y,Z,...]`

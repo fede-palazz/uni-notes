@@ -79,9 +79,9 @@ sopra(B,B1) :- on(B,B0), sopra(B0,B1).
 # es: scambiando le righe sopra si ottiene un ciclo infinito (call stack infinita)
 # Quindi MAI anticipare le chiamate ricorsive, prima si devono dichiarare le regole semplici
 
-# Query
-# Trovare se ci sono dei blocchi sopra il blocco 'e'
-?- sopra(X,c).
+# Trovare il numero di blocchi sopra ad un blocco
+n_over(B,0) :- not(on(_,B)).
+n_over(B,X) :- sopra(B1,B), n_over(B1,Sop), X is Sop+1.
 ```
 
 ### Dichiarativo vs Procedurale
