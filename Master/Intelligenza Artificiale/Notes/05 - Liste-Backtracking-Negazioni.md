@@ -130,7 +130,68 @@ max(X,Y,Max) :- X >= Y, !, Max=X; Max=Y.	# ';' -> OR
 
 ## Esercizi
 
+```perl
+# Data la seguente KB (es_1.pl)
+p(1).
+p(2):- !.	# p(2) vera se si esegue il cut -> p(3) non si valuta
+			# :- !. <==> :- true, !.
+p(3).
 
+# Indovinare le risposte alle seguenti richieste
+?- p(X).		# X = 1; X = 2. -> a causa del cut
+
+# p(X),p(Y) = prodotto cartesiano
+?- p(X),p(Y).	# p(X) = 1, p(Y) = 1
+				# p(X) = 1, p(Y) = 2
+				# cerca l'ultima volta che X era true (backtrack)
+				# p(X) = 2, p(Y) = 1
+				# p(X) = 2, p(Y) = 2
+				# !. -> end
+				
+?- p(X),!,p(Y).		# p(X) true -> ! -> p(Y)
+					# ! -> no backtracking p(Y) -> p(X)
+					# p(X) = 1, p(Y) = 1;
+					# p(X) = 1, p(Y) = 2.
+```
+
+```perl
+# La relazione classifica i numeri a tre classi: 
+#	- positive
+#	- zero
+#	- negative
+class(Number,positive) :- Number > 0.
+class(0,zero).
+class(Number,negative) :- Number < 0.
+
+# Create una forma piu efficiente usando il cut.
+# Opzione 1
+class(Number,X) :- Number > 0, X=positive, !.
+class(Number,X) :- Number < 0, X=negative, !; X=zero.
+
+# Opzione 2
+class(Number,positive) :- Number > 0, !.
+class(Number,negative) :- Number < 0, !.
+class(0,zero).
+```
+
+```perl
+# Definite la procedura (usando Cut) split(Numbers,Positive,Negative) che divide una lista di numeri in due liste: 
+#	- valori positivi (zero incluso)
+#	- valori negativi
+# Per esempio:
+# split([3,-1,0,5,-2],[3,0,5],[-1,-2]).
+
+# Variabili: List (input), Positive, Negative
+split([],[],[]).	# Definisco le tre variabili come liste
+					# (anche Positive e Negative lo sono)
+split([Head|Tail], [Head|Positive], Negative) :- 
+	Head >= 0, # Head >= 0 -> lo aggiungo in testa alla lista Positive
+	split(Tail, Positive, Negative), !.
+
+split([Head|Tail], Positive, [Head|Negative]) :- 
+	Head < 0, # Head < 0 -> lo aggiungo in testa alla lista Negative
+	split(Tail, Positive, Negative).
+```
 
 
 
