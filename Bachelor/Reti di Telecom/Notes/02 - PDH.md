@@ -122,6 +122,8 @@
 
 <img src="img/Screenshot_09-11-2022_232212.png" alt="Screenshot_09-11-2022_23:22:12" style="zoom:80%;" />
 
+
+
 #### diagnostica dei collegamenti
 
 - <u>BER</u> - stima dei bit errati in ricezione
@@ -147,19 +149,100 @@
     - stessa frequenza
     - sfasamento costante
     - non esistono nella realtà
-  - **mesocroni** (*gerarchie SDH*)
+  - **mesocroni** (*<u>gerarchie SDH</u>*)
     - stessa frequenza (mediamente) $\rightarrow$ massimo sincronismo ottenibile in un sistema reale
     - fase variabile (dipende da impedenza caratteristica del mezzo, distanza, ecc...)
-  - **plesiocroni** (*gerarchie PDH*)
+  - **plesiocroni** (*<u>gerarchie PDH</u>*)
     - stessa frequenza nominale
     - frequenze effettive dei multiplatori diverse
     - come funzionavano le reti fino a qualche anno fa
   - **eterocroni**
     - frequenze nominali diverse
-- i due tipi di segnale di maggiore interesse pratico sono i segnali ”mesocroni” e quelli “plesiocroni”
-- infatti la condizione di perfetto sincronismo <u>non è realizzabile</u> dal punto di vista pratico 
-  - segnali trasportati in una rete geograficamente estesa
-  - variazioni di fase accumulate lungo i collegamenti tra i nodi della rete
 
-- segnali che nascono sincroni, generati cioè da un unico clock, possono risultare <u>fortemente degradati</u> dal punto di vista delle <u>relazioni di sincronismo</u>, pur mantenendo nel lungo termine la stessa frequenza media
-- Pertanto, in una rete numerica sincrona, i segnali che dovrebbero risultare sincroni sono di fatto tra loro <u>mesocroni</u>
+- segnali sincroni
+  - generati da un <u>unico clock</u>
+  - condizione di perfetto sincronismo $\rightarrow$ <u>non realizzabile</u> in pratica
+    - grandi distanze $\rightarrow$ <u>degradazione del sincronismo</u>
+    - mantengono la <u>stessa frequenza media</u> $\rightarrow$ mesocroni tra loro
+
+<div style="page-break-after: always;"></div>
+
+### Sincronismi nelle reti 2 Mb/s
+
+<img src="img/Screenshot_10-11-2022_144428.png" alt="Screenshot_10-11-2022_14:44:28" style="zoom:80%;" />
+
+- livelli di sincronizzazione:
+  - bit
+    - <u>bit rate fisso</u> (la frequenza di lettura si estrae dalla sequenza stessa)
+    - <u>linea mantenuta attiva</u> anche quando non vi è invio di informazioni
+      - trasmissione di bit ridondanti (o di stuffing)
+      - rimozione in ricezione
+      - utile quando un tributario ha rallentato la frequenza di trasmissione
+  - time slot (canale)
+    - riconoscimento PA (time slot 0 di ogni trama)
+  - trama
+    - conteggio di 32 time slot
+  - multitrama
+    - conteggio di 16 trame
+
+<div style="page-break-after: always;"></div>
+
+### Sistemi sincroni e asincroni
+
+<img src="img/Screenshot_10-11-2022_145734.png" alt="Screenshot_10-11-2022_14:57:34" style="zoom:80%;" />
+
+- <u>regime asincrono</u> (o plesiocrono)
+  - trasmettitore $\rightarrow$ frequenza nominale di 2.048 Kb/s
+  - ricevitore
+    - frequenza estratta dal segnale in ricezione
+    - allineamento sia in frequenza, che in fase
+- <u>regime sincrono</u> (o mesocrono)
+  - *modalità master-slave*
+    - master: trasmette sia informazioni che il segnale di clock
+    - slave: sincronizza il suo clock con quello ricevuto dal master
+  - *modalità centralizzata*
+    - connessione degli apparati ad un oscillatore centralizzato
+    - PRO: generalmente più preciso
+    - CON: bisogna prevedere un'opportuna rete di distribuzione del sincronismo
+
+<div style="page-break-after: always;"></div>
+
+## Gerarchie superiori
+
+- <u>gerarchia di multiplazione PDH</u>: insieme di protocolli di livello fisico per reti WAN
+- gerarchie ETSI (ente europeo):
+
+<img src="img/Screenshot_10-11-2022_151831.png" alt="Screenshot_10-11-2022_15:18:31" style="zoom:80%;" />
+
+- <u>multiplazione parola per parola</u>
+  - interlacciamento di <u>gruppi di 8 bit</u> di ogni tributario
+  - PRO:
+    - <u>mantiene il significato</u> delle parole di ogni tributario
+    - semplicità nelle operazioni di estrazione / inserzione (basta consultare il time slot desiderato)
+  - impiegata nel I° livello PCM (2 Mb/s)
+- <u>multiplazione bit per bit</u>
+  - interlacciamento di <u>un bit di ogni tributario</u> alla volta
+  - PRO:
+    - tecnica flessibile ed economica
+    - adatta alla multiplazione di segnali codificati in modi diversi (prescinde dalla struttura di trama del tributario)
+  - impiegata nei livelli superiori della gerarchia PCM
+
+<div style="page-break-after: always;"></div>
+
+### Multiplazione asincrona del III° ordine
+
+<img src="img/Screenshot_10-11-2022_161100.png" alt="Screenshot_10-11-2022_16:11:00" style="zoom:80%;" />
+
+- <u>bit di stuffing</u> - possono essere occupati da bit di tributario o da bit non significativi
+- <u>messaggi di stuffing</u> - utilizzati per indicare la presenza o meno di bit significativi:
+  - `0` <u>in tutti e tre</u> i blocchi (rossi) in una certa posizione $\rightarrow$ bit di stuffing significativo
+  - `1` <u>in tutti e tre</u> i blocchi $\rightarrow$ bit di stuffing non significativo
+  - in caso di errori si considera la maggioranza
+
+### Problemi della gerarchia PDH
+
+- Mancanza di visibilità del singolo canale ai livelli superiori
+  - nella trama 2 Mb/s si ha <u>accesso al singolo canale informativo</u> (basta prendere il time slot corrispondente)
+  - nelle trame delle gerarchie superiori bisogna interpretare i <u>messaggi di stuffing</u> e <u>demultiplare il flusso</u> fino a 2 Mb/s
+- bassa velocità, overhead limitato $\rightarrow$ impossibilità di gestire complesse reti moderne
+- Incompatibilità tra apparati di produttori differenti (telefonie di diversi continenti)
