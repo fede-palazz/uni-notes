@@ -231,13 +231,33 @@
 
 ### Multiplazione asincrona del III° ordine
 
-<img src="img/Screenshot_10-11-2022_161100.png" alt="Screenshot_10-11-2022_16:11:00" style="zoom:80%;" />
+<img src="img/Screenshot_11-11-2022_154014.png" alt="Screenshot_11-11-2022_15:40:14" style="zoom:80%;" />
 
+- sincronizzazione tramite tecnica pulse-stuffing o di <u>giustificazione positiva</u>
 - <u>bit di stuffing</u> - possono essere occupati da bit di tributario o da bit non significativi
 - <u>messaggi di stuffing</u> - utilizzati per indicare la presenza o meno di bit significativi:
   - `0` <u>in tutti e tre</u> i blocchi (rossi) in una certa posizione $\rightarrow$ bit di stuffing significativo
   - `1` <u>in tutti e tre</u> i blocchi $\rightarrow$ bit di stuffing non significativo
-  - in caso di errori si considera la maggioranza
+  - in caso di errori si considerano i bit in maggioranza
+
+#### Segnalazione per giustificazione positiva e negativa
+
+<img src="img/Screenshot_11-11-2022_154504.png" alt="Screenshot_11-11-2022_15:45:04" style="zoom:80%;" />
+
+- struttura:
+  - **MS-P** $\rightarrow$ messaggi di stuffing, giustificazione positiva
+  - **MS-N** $\rightarrow$ messaggi di stuffing, giustificazione negativa
+  - **JP** $\rightarrow$ <u>bit informativi</u> (solitamente), riempito occasionalmente con bit non significativi
+  - **JN** $\rightarrow$ <u>bit di stuffing</u> (solitamente), riempito occasionalmente con bit significativi
+- casi possibili:
+  - **zero justification**
+    - bit di MS-P, MS-N disattivi $\rightarrow$ JP contiene un bit informativo, JN uno di stuffing
+  - **positive justification**
+    - un tributario è <u>più lento</u> della frequenza di trama
+    - bit di <u>MS-P attivi</u> $\rightarrow$ JP e JN contengono <u>bit di riempimento</u>
+  - **negative justification**
+    - un tributario è <u>più veloce</u> della frequenza di trama
+    - bit di <u>MS-N attivi</u> $\rightarrow$ JP e JN contengono <u>bit significativi</u>
 
 ### Problemi della gerarchia PDH
 
