@@ -57,7 +57,7 @@
 
 ### Overhead di trasporto
 
-<img src="img/Screenshot_10-11-2022_222635.png" alt="Screenshot_10-11-2022_22:26:35" style="zoom:80%;" />
+<img src="img/Screenshot_10-11-2022_222635.png" alt="Screenshot_10-11-2022_22:26:35" style="zoom: 67%;" />
 
 - rete di trasporto SDH:
   - livello di percorso (**PATH**)
@@ -72,7 +72,7 @@
 
 ### Trasporto del PDH nell'SDH
 
-<img src="img/Screenshot_11-11-2022_192116.png" alt="Screenshot_11-11-2022_19:21:16" style="zoom:80%;" />
+<img src="img/Screenshot_11-11-2022_192116.png" alt="Screenshot_11-11-2022_19:21:16" style="zoom:90%;" />
 
 1. <u>creazione di un container</u> (C-4) composto da:
    - bit informativi
