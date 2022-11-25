@@ -70,7 +70,7 @@
     - sezione di rigenerazione $\rightarrow$ <u>RSOH</u> (Rigenerator Section OverHead)
     - sezione di multiplazione $\rightarrow$ <u>MSOH</u> (Mutiplexer Section OverHead)
 
-### Trasporto del PDH nell'SDH
+## Trasporto del PDH nell'SDH
 
 <img src="img/Screenshot_11-11-2022_192116.png" alt="Screenshot_11-11-2022_19:21:16" style="zoom:90%;" />
 
@@ -92,7 +92,7 @@
    - eliminazione dei bit di stuffing
    - riottenimento del flusso PDH a 140 Mb/s
 
-#### Mapping all'interno del VC
+### Mapping all'interno del VC
 
 <img src="img/Screenshot_11-11-2022_194307.png" alt="Screenshot_11-11-2022_19:43:07" style="zoom:80%;" />
 
@@ -105,7 +105,7 @@
       - C = 0,0,0,0,0 $\rightarrow$ JUST bit di tributario
       - C = 1,1,1,1,1 $\rightarrow$ JUST bit di stuffing
 
-#### Byte del POH
+## Byte del POH
 
 <img src="img/Screenshot_11-11-2022_200005.png" alt="Screenshot_11-11-2022_20:00:05" style="zoom:80%;" />
 
@@ -120,7 +120,7 @@
 - **K3** (Automatic Protection Switching channel)
   - devia automaticamente il traffico su risorse di rete di riserva in caso di guasti
 
-#### Bit di parità
+### Bit di parità
 
 - **BIP-(n,m)**
   - n - bit che esprimono il risultato (n = 8)
@@ -128,3 +128,32 @@
 - il risultato viene inserito nel byte B3 del POH del VC-4 successivo
 - si ottiene una <u>stima del tasso di errore</u> sul VC
 
+## Allineamento del VC-4 nel payload
+
+<img src="img/Screenshot_16-11-2022_153918.png" alt="Screenshot_16-11-2022_15:39:18" style="zoom:80%;" />
+
+- trama SDH consente di operare anche in presenza di guasti o disturbi alla temporizzazione
+  - **differenze in frequenza** $\rightarrow$ recuperate mediante <u>giustificazione</u>
+  - **differenze in fase** $\rightarrow$ recuperate mediante cambio del <u>valore del puntatore</u> (bit del *New Data Flag*)
+
+### Unità amministrativa e puntatore
+
+<img src="img/Screenshot_16-11-2022_154228.png" alt="Screenshot_16-11-2022_15:42:28" style="zoom:80%;" />
+
+- **puntatore AU**
+  - indica la locazione del primo byte del VC (J1)
+  - è composto da `10 bit` ed è contenuto nei byte `H1`, `H2`
+  - valori possibili: `0 - 782`
+  - ogni valore punta ad <u>un byte ogni tre</u> $\rightarrow$ il VC può occupare solo posizioni multiple di 3 byte
+
+### Segnalazione di giustificazione
+
+<img src="img/Screenshot_16-11-2022_160208.png" alt="Screenshot_16-11-2022_16:02:08" style="zoom:80%;" />
+
+- bit di giustificazione:
+  - 3 byte H3 $\rightarrow$ <u>giustificazione negativa</u> (normalmente di stuffing)
+  - 3 byte a destra di H3 $\rightarrow$ <u>giustificazione positiva</u> (normalmente significativi)
+
+- modalità di segnalamento:
+  - inversione <u>bit dispari</u> puntatore $\rightarrow$ giust. <u>positiva</u> (`AU++`) $\rightarrow$ VC più <u>lento</u> della trama
+  - inversione <u>bit pari</u> puntatore $\rightarrow$ giust. <u>negativa</u> (`AU--`) $\rightarrow$ VC più <u>veloce</u> della trama

@@ -13,24 +13,49 @@
     - settori di attività
     - target di utenza
 - Obiettivo
-  - diagrammi BPMN (qualche cenno)
   - teaming authoring tools
   - risultati attesi
 - Struttura della Tesi
 
-### 2. Strumenti utilizzati
+### 2. Strumenti e Metodi
+
+- notazione BPMN
+  - Obiettivi
+  - BPMN
+    - rappresentazione grafica
+    - rappresentazione XML
+    - esempi
+  - Finalità
+    - benefici, utilità
+    - casi d'uso
 
 - Stack tecnologico
   - HTML, CSS, JS
-- Librerie esterne (breve descrizione)
-  - bpmn-js, bpmn-js-token-simulation
-  - Webpack
-- Tools
   - Ambiente di sviluppo (VS Code)
   - Repository (Github)
-  - Deployment (Docker + CDN)
+- Librerie esterne (bpmn-js, bpmn-js-token-simulation)
+  - Descrizione
+    - funzionalità
+    - licenza
+      - open source
+      - Camunda
+  - Installazione
+  - Utilizzo
+    - Viewer, Modeler
+  - Token simulation
 
-### 3. Scelte di progettazione
+- JS bundlers
+  - Introduzione
+    - cosa sono
+    - perchè sono necessari
+    - utilizzi principali
+
+  - Webpack
+    - funzionamento
+    - utilizzo all'interno del progetto
+
+
+### 3. Progettazione
 
 - plain JS vs JS framework
   - struttura e rendering manuale dei componenti
@@ -40,39 +65,7 @@
 - selezione software di bundling
 - distribuzione del software
 
-### 4. Notazione BPMN
-
-- Obiettivi
-- BPMN
-  - rappresentazione grafica
-  - rappresentazione XML
-  - esempi
-- Finalità
-  - benefici, utilità
-  - casi d'uso
-
-### 4. Libreria bpmn-js
-
-- Descrizione
-  - funzionalità
-  - licenza
-    - open source
-    - Camunda
-- Installazione
-- Utilizzo
-  - Viewer, Modeler
-- Token simulation
-
-### 5. JS bundlers
-
-- Introduzione ai JS bundlers
-  - perchè sono necessari
-  - utilizzi principali
-- Webpack
-  - funzionamento
-  - utilizzo all'interno del progetto
-
-### 6. Struttura del progetto
+### 4. Sviluppo, Test e Deploy
 
 - Suddivisione logica dell'applicativo
   - homepage
@@ -93,20 +86,18 @@
   - diagram handler
     - comunicazione con libreria bpmn-js
     - esportazione dei diagrammi in XML / SVG
+- Distribuzione del software
+  - Docker
+    - Introduzione
+    - Scopo
+    - Dockerfile
+    - Docker compose
+      - NGINX
+  - AWS CDN
+    - Cenni sulle CDN
 - Problemi riscontrati
 
-### 7. Distribuzione del software
-
-- Docker
-  - Introduzione
-  - Scopo
-  - Dockerfile
-  - Docker compose
-    - NGINX
-- AWS CDN
-  - Cenni sulle CDN
-
-### 8. Conclusioni
+### 5. Conclusioni
 
 - Raggiungimento degli obiettivi iniziali
 - Miglioramenti ed implementazioni future
@@ -116,4 +107,6 @@
   - https
 - Bug riscontrati
 - Accorgimenti futuri
+
+### 6. Bibliografia
 
